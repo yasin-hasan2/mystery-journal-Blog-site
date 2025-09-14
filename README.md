@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📝 Mystery Journal
 
-## Getting Started
+A modern and responsive blog platform built with Next.js 15, Prisma, Clerk authentication, and Tailwind CSS. Users can create, read, like, and manage articles with a smooth UI and optimized performance.
 
-First, run the development server:
+🚀 Features
 
-```bash
+🔐 Authentication & User Management with Clerk
+
+🖋️ Rich-text Editor using React Quill for article creation
+
+🗄️ Database ORM with Prisma
+
+☁️ Image Upload powered by Cloudinary
+
+🎨 Modern UI Components with Radix UI + TailwindCSS
+
+🌙 Light/Dark Mode support using next-themes
+
+❤️ Likes & Optimistic Updates for better UX
+
+📱 Fully Responsive design
+
+🛠️ Tech Stack
+
+Frontend & Framework
+
+Next.js 15
+
+React 19
+
+TailwindCSS 4
+
+Backend & Database
+
+Prisma
+
+[PostgreSQL / MySQL / SQLite] (choose your DB)
+
+Authentication & File Storage
+
+Clerk
+
+Cloudinary
+
+UI & Utilities
+
+Radix UI
+
+Lucide Icons
+
+Zod (validation)
+
+clsx & tailwind-merge (class handling)
+
+⚙️ Installation
+
+Clone the repository
+
+git hub link: https://github.com/yasin-hasan2
+
+project link:
+cd blog-website
+
+Install dependencies
+
+npm install
+
+# or
+
+yarn install
+
+Set up environment variables
+Create a .env file in the root with:
+
+DATABASE_URL=your_database_url
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
+CLERK_SECRET_KEY=your_clerk_secret
+CLOUDINARY_URL=your_cloudinary_url
+
+Run Prisma migrations
+
+npx prisma migrate dev
+
+Start the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📂 Project Structure
+src/
+├── app/ # Next.js App Router
+│ ├── articles/ # Articles pages
+│ ├── api/ # API routes
+│ └── layout.tsx
+├── components/ # Reusable UI components
+├── actions/ # Server actions
+├── lib/ # Utilities (db, auth, etc.)
+└── styles/ # Global styles
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧑‍💻 Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm run dev – Start development server
 
-## Learn More
+npm run build – Build production app
 
-To learn more about Next.js, take a look at the following resources:
+npm run start – Run production server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npx prisma studio – Open Prisma Studio
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🤝 Contributing
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pull requests are welcome. For major changes, open an issue first to discuss what you’d like to change..

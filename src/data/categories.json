@@ -1,0 +1,25 @@
+[
+  { "id": "technology", "name": "Technology", "type": "technology" },
+  { "id": "programming", "name": "Programming", "type": "technology" },
+  { "id": "web-development", "name": "Web Development", "type": "technology" },
+  { "id": "ai", "name": "Artificial Intelligence", "type": "technology" },
+  { "id": "mobile", "name": "Mobile Development", "type": "technology" },
+
+  { "id": "health", "name": "Health", "type": "health" },
+  { "id": "fitness", "name": "Fitness", "type": "health" },
+  { "id": "nutrition", "name": "Nutrition", "type": "health" },
+  { "id": "mental-health", "name": "Mental Health", "type": "health" },
+  { "id": "wellness", "name": "Wellness", "type": "health" },
+
+  { "id": "environment", "name": "Environment", "type": "nature" },
+  { "id": "sustainability", "name": "Sustainability", "type": "nature" },
+  { "id": "wildlife", "name": "Wildlife", "type": "nature" },
+  { "id": "climate-change", "name": "Climate Change", "type": "nature" },
+  { "id": "gardening", "name": "Gardening", "type": "nature" },
+
+  { "id": "travel", "name": "Travel", "type": "lifestyle" },
+  { "id": "food", "name": "Food", "type": "lifestyle" },
+  { "id": "fashion", "name": "Fashion", "type": "lifestyle" },
+  { "id": "music", "name": "Music", "type": "lifestyle" },
+  { "id": "movies", "name": "Movies", "type": "lifestyle" }
+]
