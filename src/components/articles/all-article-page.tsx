@@ -2,9 +2,9 @@ import { Card } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Search } from "lucide-react";
 import Image from "next/image";
-import { Prisma } from "@/generated/prisma";
+// import { Prisma } from "@/generated/prisma";
 import Link from "next/link";
-// import { Prisma } from "@prisma/client";
+import { Prisma } from "@prisma/client";
 
 type SearchPageProps = {
   articles: Prisma.ArticlesGetPayload<{

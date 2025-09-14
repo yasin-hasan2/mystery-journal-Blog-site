@@ -6,7 +6,7 @@ import CommentList from "../comments/comment-list";
 import { prisma } from "@/lib/prisma";
 import LikeButton from "./actions/like-button";
 import { auth } from "@clerk/nextjs/server";
-import { Prisma } from "@/generated/prisma";
+import { Prisma } from "@prisma/client";
 import CommentForm from "../comments/comment-input";
 
 type ArticleDetailPageProps = {

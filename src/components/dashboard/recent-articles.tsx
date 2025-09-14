@@ -13,7 +13,7 @@ import {
 import Link from "next/link";
 
 // import { deleteArticle } from "@/actions/delete-article";
-import { Prisma } from "@/generated/prisma";
+import { Prisma } from "@prisma/client";
 import { deleteArticle } from "@/actions/delete-article";
 // import Loading from "@/app/loading";
 import Loader from "../anim/loader/loader";
