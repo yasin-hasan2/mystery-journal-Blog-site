@@ -2,7 +2,8 @@
 
 import { toggleLike } from "@/actions/like-dislike";
 import { Button } from "@/components/ui/button";
-import { Like } from "@/generated/prisma";
+import { Like } from "@prisma/client";
+
 import { Bookmark, Share2, ThumbsUp } from "lucide-react";
 import React, { useOptimistic, useTransition } from "react";
 
