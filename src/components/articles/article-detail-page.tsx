@@ -44,9 +44,14 @@ export async function ArticleDetailPage({ article }: ArticleDetailPageProps) {
   });
   console.log("likes", likes);
   const { userId } = await auth();
-  const user = await prisma.user.findUnique({
-    where: { clerkUserId: userId as string },
-  });
+
+  let user = null;
+
+  if (userId) {
+    user = await prisma.user.findUnique({
+      where: { clerkUserId: userId },
+    });
+  }
 
   const isLiked = likes.some((like) => like.userId === user?.id);
 
